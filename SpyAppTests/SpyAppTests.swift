@@ -1,10 +1,3 @@
-//
-//  SpyAppTests.swift
-//  SpyAppTests
-//
-//  Created by Axel Ancona Esselmann on 8/30/18.
-//  Copyright © 2018 Axel Ancona Esselmann. All rights reserved.
-//
 
 import XCTest
 @testable import SpyApp

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82746D9D2156B51B00D1DE0F /* CaesarCipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82746D9C2156B51B00D1DE0F /* CaesarCipherTests.swift */; };
+		82746D9F2157357F00D1DE0F /* AlphanumericTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82746D9E2157357F00D1DE0F /* AlphanumericTests.swift */; };
+		82746DA12157361000D1DE0F /* MirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82746DA02157361000D1DE0F /* MirrorTests.swift */; };
+		82746DA32157367F00D1DE0F /* KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82746DA22157367F00D1DE0F /* KeyboardTests.swift */; };
 		970E4DD52138EC8600BA3EE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DD42138EC8600BA3EE9 /* AppDelegate.swift */; };
 		970E4DD72138EC8600BA3EE9 /* SpyAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970E4DD62138EC8600BA3EE9 /* SpyAppViewController.swift */; };
 		970E4DDA2138EC8600BA3EE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970E4DD82138EC8600BA3EE9 /* Main.storyboard */; };
@@ -28,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		82746D9C2156B51B00D1DE0F /* CaesarCipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaesarCipherTests.swift; sourceTree = "<group>"; };
+		82746D9E2157357F00D1DE0F /* AlphanumericTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlphanumericTests.swift; sourceTree = "<group>"; };
+		82746DA02157361000D1DE0F /* MirrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTests.swift; sourceTree = "<group>"; };
+		82746DA22157367F00D1DE0F /* KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTests.swift; sourceTree = "<group>"; };
 		970E4DD12138EC8600BA3EE9 /* SpyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		970E4DD42138EC8600BA3EE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		970E4DD62138EC8600BA3EE9 /* SpyAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyAppViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				970E4DE92138EC8700BA3EE9 /* SpyAppTests.swift */,
+				82746D9C2156B51B00D1DE0F /* CaesarCipherTests.swift */,
+				82746DA22157367F00D1DE0F /* KeyboardTests.swift */,
+				82746DA02157361000D1DE0F /* MirrorTests.swift */,
+				82746D9E2157357F00D1DE0F /* AlphanumericTests.swift */,
 				970E4DEB2138EC8700BA3EE9 /* Info.plist */,
 			);
 			path = SpyAppTests;
@@ -214,7 +226,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82746D9F2157357F00D1DE0F /* AlphanumericTests.swift in Sources */,
 				970E4DEA2138EC8700BA3EE9 /* SpyAppTests.swift in Sources */,
+				82746DA32157367F00D1DE0F /* KeyboardTests.swift in Sources */,
+				82746DA12157361000D1DE0F /* MirrorTests.swift in Sources */,
+				82746D9D2156B51B00D1DE0F /* CaesarCipherTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
