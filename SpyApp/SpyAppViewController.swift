@@ -39,13 +39,29 @@ class SpyAppViewController: UIViewController {
         {
             switch selectedCipher {
             case "Caesar" :
+                guard let secretInt = Int(secretText) else {
+                    print("Enter valid secret key (Only integers accepted!)")
+                    return
+                }
                 output.text = cipher.encode(plaintext, secret: secretText)
             case "Alphanumeric" :
+                guard let secretInt = Int(secretText) else {
+                    print("Enter valid secret key (Only integers accepted!)")
+                    return
+                }
                 output.text = cipher.alphanumericEncode(plaintext, secret: Int(secretText)!)
             case "Mirror" :
+                guard let secretInt = Int(secretText) else {
+                    print("Enter valid secret key (Only integers accepted!)")
+                    return
+                }
                 secret.text = "Secret key is not required for mirror!"
                 output.text = cipher.mirror(plaintext)
             case "KeyBoard" :
+                guard let secretInt = Int(secretText) else {
+                    print("Enter valid secret key (Only integers accepted!)")
+                    return
+                }
                 output.text = cipher.keyboardEncode(plaintext, secret: Int(secretText)!)
             default :
                 output.text = "Some error occurred in switch case!"
